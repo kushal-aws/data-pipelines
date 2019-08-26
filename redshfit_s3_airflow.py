@@ -167,10 +167,10 @@ try:
 ​
     def send_slack_unload_sales_data():
 ​
-    	logger.info('sending slack for order_details file task completion now')
+    	logger.info('sending slack for sales file task completion now')
 ​
     	slack_client = SlackClient(Variable.get("slack_token"))
-    	message = ('order_details file sent for ' + timestr)
+    	message = ('sales_details file sent for ' + timestr)
     	logger.info(message)
     	slack_client.api_call(
     	    "chat.postMessage",
