@@ -19,7 +19,7 @@ Thereafter, we use psycopg2 to run this query on redshfit which will unload it t
 Remember the limitation mentioned in point 2?
 
 
-We get over it by sending the file name which we just sent today to aws_cli_rename() method. This method will copy the data from the old file to a new file with the name that we want, we also delete the old file with the weird naming convention :)
+We get over it by sending the file name which we just sent today to aws_cli_rename() method. This method will copy the data from the old file to the new file with the name that we want, we also delete the old file with the weird naming convention :)
 
 
 # Airflow: 
